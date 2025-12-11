@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClientAttractionReviewAPI</name>
+    </assembly>
+    <members>
+        <member name="T:ClientAttractionReviewAPI.ViewModels.ReviewViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.Attractions">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._attractions"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.Reviews">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._reviews"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.Username">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._username"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.Password">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._password"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.IsLoggedIn">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._isLoggedIn"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.CurrentUser">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._currentUser"/>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.IsLoading">
+            <inheritdoc cref="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel._isLoading"/>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoginAsync"/>.</summary>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.RegisterAsync"/>.</summary>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.loadAttractionsCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadAttractionsCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadAttractionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadAttractionsAsync"/>.</summary>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.loadReviewsCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadReviewsCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadReviewsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.LoadReviewsAsync"/>.</summary>
+        </member>
+        <member name="F:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.createSampleAttractionCommand">
+            <summary>The backing field for <see cref="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.CreateSampleAttractionCommand"/>.</summary>
+        </member>
+        <member name="P:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.CreateSampleAttractionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ClientAttractionReviewAPI.ViewModels.ReviewViewModel.CreateSampleAttractionAsync"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Attractions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Attractions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Reviews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Reviews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoggedIn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoggedIn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentUser" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Attractions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Attractions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Reviews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Reviews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoggedIn">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoggedIn" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentUser" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+    </members>
+</doc>
