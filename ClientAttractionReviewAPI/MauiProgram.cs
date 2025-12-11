@@ -36,5 +36,6 @@ public static class MauiProgram
         service.AddTransient<ReviewViewModel>();
             
         //pages
+        service.AddTransient<MainPage>();
     }
 }

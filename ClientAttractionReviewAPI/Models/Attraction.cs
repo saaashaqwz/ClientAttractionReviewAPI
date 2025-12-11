@@ -1,0 +1,33 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace ClientAttractionReviewAPI.Models;
+
+public class Attraction
+{
+    [Key]
+    public int Id { get; set; }
+    
+    [Required (ErrorMessage = "название не может быть пустым")]
+    [StringLength(50, ErrorMessage = "название не может содержать больше 50 символов")]
+    public string Name { get; set; } = null!;
+    
+    [StringLength(100, ErrorMessage = "описание не может содержать больше 100 символов")]
+    public string? Description { get; set; }
+    
+    [Required (ErrorMessage = "место не может быть пустым")]
+    [StringLength(50, ErrorMessage = "место не может содержать больше 50 символов")]
+    public string Location { get; set; } = null!;
+    
+    [StringLength(40, ErrorMessage = "категория не может содержать больше 40 символов")]
+    public string? Category { get; set; }
+    
+    public ICollection<Review> Reviews { get; set; } = new List<Review>();
+
+    public Attraction(string name, string description, string location, string category)
+    {
+        Name = name;
+        Description = description;
+        Location = location;
+        Category = category;
+    }
+}
